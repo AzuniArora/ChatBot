@@ -71,7 +71,7 @@ if (!candidate || !candidate.content?.parts?.[0]?.text) {
 });
 
 app.listen(PORT, '0.0.0.0', () => {
-  console.log(`✅ Backend running at http://localhost:${PORT}`);
+  console.log(`✅ Backend running at http://192.168.70.166:${PORT}`);
 });
 
 const formatBotReply = (text) => {
